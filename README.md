@@ -6,10 +6,14 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/spryker-eco/inxmail/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/spryker-eco/inxmail/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/spryker-eco/inxmail/badges/build.png?b=master)](https://scrutinizer-ci.com/g/spryker-eco/inxmail/build-status/master)
 
+## Info
+
+This is a fork of the spryker-eco/inxmail package.
+
 ## Installation
 
 ```
-composer require spryker-eco/inxmail
+composer require sparhandy/inxmail
 ```
 
 ## Documentation

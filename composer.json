@@ -1,15 +1,16 @@
 {
-    "name": "spryker-eco/inxmail",
+    "name": "sparhandy/inxmail",
     "type": "library",
-    "description": "Inxmail module",
+    "description": "Inxmail module fork",
     "license": "MIT",
+    "version": "1.2.0",
     "require": {
         "php": ">=7.2",
         "spryker/application": "^1.0.0 || ^2.0.0 || ^3.0.0",
         "spryker/customer-extension": "^1.0.0",
         "spryker/guzzle": "^2.2.0",
         "spryker/kernel": "^3.0.0",
-        "spryker/locale": "^1.0.0 || ^2.0.0 || ^3.0.0",
+        "spryker/locale": "^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0",
         "spryker/money": "^1.0.0 || ^2.0.0",
         "spryker/product": "^5.0.0 || ^6.0.0",
         "spryker/sales": "^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0",
@@ -51,5 +52,8 @@
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
+    },
+    "replace": {
+        "spryker-eco/inxmail": "1.1.0"
     }
 }
